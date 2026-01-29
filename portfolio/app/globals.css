@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html { scroll-behavior: smooth; }
+
+:root {
+  --background: 255 255 255;
+  --foreground: 17 24 39;
+  --muted: 107 114 128;
+  --border: 229 231 235;
+}
+
+.dark {
+  --background: 10 10 10;
+  --foreground: 245 245 245;
+  --muted: 163 163 163;
+  --border: 38 38 38;
+}
+
+@layer base {
+  html, body {
+    transition: background-color 250ms ease, color 250ms ease;
+  }
+
+  * {
+    transition-property: background-color, color, border-color, fill, stroke;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+  }
+}
