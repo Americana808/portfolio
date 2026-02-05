@@ -11,9 +11,9 @@ import Image from "next/image";
 />
 
 const skills = [
-  "Java", "Python", "C/C++", "SQL (Postgres)", "JavaScript",
-  "React", "Next.js", "Node.js", "Flask", "FastAPI",
-  "Linux", "Git", "Firebase", "JUnit",
+  "Java", "Python", "C#", "SQL (Postgres)", "JavaScript", "C/C++",
+  "React", "Next.js", "Node.js", "Flask", "HTML/CSS", "Tailwind CSS",
+  "Linux", "Git", "Firebase", "JUnit", "REST APIs", "Docker",
 ];
 
 const experience = [
@@ -60,9 +60,9 @@ const experience = [
 
 const projects = [
   {
-  title: "PolyView (Hackathon Project)",
-  stack: ["React", "TypeScript", "Bun", "Polymarket API"],
-  desc: "Hackathon-built analytics dashboard for Polymarket markets with a clean UI and fast iteration workflow.",
+  title: "PolyView Polymarket data dashboard",
+  stack: ["React", "TypeScript", "Bun", "Polymarket MCP", "Claude AI", "Tailwind CSS", "NewsAPI"],
+  desc: "Hackathon built analytics dashboard for Polymarket MCP server integration, leveraging Claude AI for insights with contextual related chart data, NewsAPI for related articles, and recent trade data with filtering for real-time updates.",
   links: [
     { label: "Repo", href: "https://github.com/Americana808/PolyView" },
   ],
