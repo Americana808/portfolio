@@ -145,6 +145,17 @@ export default function Page() {
               </p>
 
               <div className="flex flex-wrap gap-4 text-sm pt-4">
+                {/* Email */}
+                <a
+                  className="flex items-center gap-2 underline underline-offset-4 hover:opacity-80 transition"
+                  href="mailto:mportillo1605@gmail.com"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                  </svg>
+                  Email
+                </a>
+
                 {/* GitHub */}
                 <a
                   className="flex items-center gap-2 underline underline-offset-4 hover:opacity-80 transition"
@@ -254,17 +265,18 @@ export default function Page() {
         {/* Contact */}
         <Section id="contact" title="Contact">
           <div className="space-y-4">
-            <p className="text-muted-foreground">
-              Email:{" "}
-              <a
-                className="underline underline-offset-4 hover:opacity-80"
-                href="mailto:mportillo1605@gmail.com"
-              >
-                mportillo1605@gmail.com
-              </a>
-            </p>
 
             <div className="flex items-center gap-4">
+              {/* Email */}
+                <a
+                  className="flex items-center gap-2 underline underline-offset-4 hover:opacity-80 transition"
+                  href="mailto:mportillo1605@gmail.com"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7">
+                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                  </svg>
+                </a>
+
               {/* GitHub */}
               <a
                 href="https://github.com/Americana808"
