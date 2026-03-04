@@ -292,7 +292,7 @@ export default function Page() {
 
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/YOUR_LINKEDIN/"
+                href="https://www.linkedin.com/in/marco-portillo-5852411b8"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
